@@ -14,7 +14,15 @@ class ViewController: UIViewController{
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         
-
+        // MyGameクラスのインスタンスを作る
+        let myGameObj = MyGame()
+        // ゲーム開始
+        myGameObj.hit()
+        print(myGameObj.gamePoint)
+        myGameObj.miss()
+        print(myGameObj.gamePoint)
+        myGameObj.hit()
+        print(myGameObj.gamePoint)
     }
 
     override func didReceiveMemoryWarning() {
