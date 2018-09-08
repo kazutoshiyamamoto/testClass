@@ -22,3 +22,9 @@ internal class BookStore {
         return (book1.name, book2.name)
     }
 }
+
+let bookStore = BookStore()
+
+bookStore.getAllBooksName()
+
+bookStore.book1
