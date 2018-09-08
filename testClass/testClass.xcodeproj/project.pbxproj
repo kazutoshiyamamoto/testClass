@@ -13,6 +13,8 @@
 		FD03AB3920A09F1400150FA4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD03AB3820A09F1400150FA4 /* Assets.xcassets */; };
 		FD03AB3C20A09F1400150FA4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD03AB3A20A09F1400150FA4 /* LaunchScreen.storyboard */; };
 		FD9714C420A43C2F00A87A69 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD9714C320A43C2F00A87A69 /* File.swift */; };
+		FDCCDE0F20A478CD00D75FD3 /* Sample.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDCCDE0E20A478CD00D75FD3 /* Sample.swift */; };
+		FDCCDE1320A4821800D75FD3 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDCCDE1220A4821700D75FD3 /* TableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		FD03AB3B20A09F1400150FA4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FD03AB3D20A09F1400150FA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FD9714C320A43C2F00A87A69 /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
+		FDCCDE0E20A478CD00D75FD3 /* Sample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sample.swift; sourceTree = "<group>"; };
+		FDCCDE1220A4821700D75FD3 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +63,8 @@
 				FD03AB3120A09F1100150FA4 /* AppDelegate.swift */,
 				FD03AB3320A09F1100150FA4 /* ViewController.swift */,
 				FD9714C320A43C2F00A87A69 /* File.swift */,
+				FDCCDE0E20A478CD00D75FD3 /* Sample.swift */,
+				FDCCDE1220A4821700D75FD3 /* TableViewCell.swift */,
 				FD03AB3520A09F1100150FA4 /* Main.storyboard */,
 				FD03AB3820A09F1400150FA4 /* Assets.xcassets */,
 				FD03AB3A20A09F1400150FA4 /* LaunchScreen.storyboard */,
@@ -138,7 +144,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FDCCDE1320A4821800D75FD3 /* TableViewCell.swift in Sources */,
 				FD03AB3420A09F1100150FA4 /* ViewController.swift in Sources */,
+				FDCCDE0F20A478CD00D75FD3 /* Sample.swift in Sources */,
 				FD9714C420A43C2F00A87A69 /* File.swift in Sources */,
 				FD03AB3220A09F1100150FA4 /* AppDelegate.swift in Sources */,
 			);

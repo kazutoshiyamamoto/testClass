@@ -19,6 +19,7 @@ class MyGame:GameProtocol {
     // プロトコルに従って実装するプロパティ
     var gamePoint: Int {
         get {
+            Sample.xxx = "xxxxxxx"
             return total
         }
     }
