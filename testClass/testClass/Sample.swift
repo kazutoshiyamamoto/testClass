@@ -8,7 +8,9 @@
 
 import UIKit
 
-class Sample: NSObject {
-    static var xxx = "xxx"
-    var yyy = "yyy"
+internal class MyClass {
+    internal var msg = "ハロー"
+    internal func hello() {
+        print(msg)
+    }
 }
