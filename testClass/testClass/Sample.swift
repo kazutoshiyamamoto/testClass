@@ -8,9 +8,11 @@
 
 import UIKit
 
-internal class MyClass {
-    internal var msg = "ハロー"
-    internal func hello() {
-        print(msg)
+class Bool {
+    let name: String
+    init(name: String) {
+        self.name = name
     }
 }
+
+
