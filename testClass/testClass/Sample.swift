@@ -20,4 +20,8 @@ private class SecretBook {
     }
 }
 
+internal class BookStore {
+    private let secretBook = SecretBook(title: "Secret Book")
+}
+
 
