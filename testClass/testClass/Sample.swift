@@ -8,23 +8,16 @@
 
 import UIKit
 
-class Book {
-    let name: String
-    init(name: String) {
-        self.name = name
+private class SecretBook {
+    init(title: String) {
+        self.title = title
+    }
+    
+    let title: String
+    
+    func description() -> String {
+        return "\(title) is Secret Book"
     }
 }
 
-internal class BookStore {
-    let book1 = Book(name: "Book1")
-    let book2 = Book(name: "Book2")
-    func getAllBooksName() -> (String, String) {
-        return (book1.name, book2.name)
-    }
-}
 
-let bookStore = BookStore()
-
-bookStore.getAllBooksName()
-
-bookStore.book1
