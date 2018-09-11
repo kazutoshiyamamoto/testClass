@@ -14,6 +14,16 @@ class Human {
     }
 }
 
-
+// Humanクラスを継承
+class Man: Human {
+    let sex = "man"
+    func getSex() -> String {
+        return self.sex
+    }
+    
+    func callSuper() {
+        super.sayHello()
+    }
+}
 
 
