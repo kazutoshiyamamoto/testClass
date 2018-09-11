@@ -8,20 +8,12 @@
 
 import UIKit
 
-private class SecretBook {
-    init(title: String) {
-        self.title = title
-    }
-    
-    let title: String
-    
-    func description() -> String {
-        return "\(title) is Secret Book"
+class Human {
+    func sayHello() {
+        print("Hello")
     }
 }
 
-internal class BookStore {
-    private let secretBook = SecretBook(title: "Secret Book")
-}
+
 
 
