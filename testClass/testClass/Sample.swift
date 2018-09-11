@@ -26,4 +26,11 @@ class Man: Human {
     }
 }
 
+let man = Man()
+let sex = man.getSex()
+print(sex)
+
+man.sayHello()
+man.callSuper()
+
 
