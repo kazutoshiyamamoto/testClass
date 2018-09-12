@@ -15,4 +15,12 @@ class Hoge {
     }
 }
 
+extension Hoge {
+    func value(of key: String) -> Any {
+        return data[key]
+    }
+}
+
+
+
 
