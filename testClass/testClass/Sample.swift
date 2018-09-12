@@ -8,29 +8,11 @@
 
 import UIKit
 
-class Human {
-    func sayHello() {
-        print("Hello")
+class Hoge {
+    private var data = [String : Any]()
+    init(data: [String : Any]) {
+        self.data = data
     }
 }
-
-// Humanクラスを継承
-class Man: Human {
-    let sex = "man"
-    func getSex() -> String {
-        return self.sex
-    }
-    
-    func callSuper() {
-        super.sayHello()
-    }
-}
-
-let man = Man()
-let sex = man.getSex()
-print(sex)
-
-man.sayHello()
-man.callSuper()
 
 
