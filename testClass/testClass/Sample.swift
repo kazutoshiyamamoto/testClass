@@ -8,18 +8,7 @@
 
 import UIKit
 
-class Hoge {
-    private var data = [String : Any]()
-    init(data: [String : Any]) {
-        self.data = data
-    }
-}
 
-extension Hoge {
-    func value(of key: String) -> Any {
-        return data[key]
-    }
-}
 
 
 
