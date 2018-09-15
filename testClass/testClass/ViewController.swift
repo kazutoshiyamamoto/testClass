@@ -7,16 +7,15 @@
 
 import UIKit
 
-class ViewController: UIViewController {
-    
-    let food: String = "カレー"
+class ViewController: ViewController2 {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        let hoge = Hoge(data: ["name": "テスト", "hp": 20])
-        print(hoge.value(of: "hp"))
-        print(hoge.value(of: "exp"))
+        print(food)
+
+        //        let hoge = Hoge(data: ["name": "テスト", "hp": 20])
+        //        print(hoge.value(of: "hp"))
+        //        print(hoge.value(of: "exp"))
     }
     
     override func didReceiveMemoryWarning() {
@@ -24,9 +23,6 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-    func test() {
-        print(food)
-    }
 }
 
 class Hoge {
