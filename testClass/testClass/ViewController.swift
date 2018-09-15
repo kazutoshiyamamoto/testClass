@@ -11,7 +11,8 @@ class ViewController: ViewController2 {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        print(food)
+//        print(food)
+        test()
 
         //        let hoge = Hoge(data: ["name": "テスト", "hp": 20])
         //        print(hoge.value(of: "hp"))
