@@ -10,10 +10,14 @@ import UIKit
 
 class ViewController3: UIViewController {
     
+    let viewController2: ViewController2 = ViewController2()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        let viewController2: ViewController2 = ViewController2()
-        print(viewController2.food)
+        
+//        print(viewController2.food)
+        viewController2.test()
+        
         // Do any additional setup after loading the view.
     }
     
